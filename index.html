@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Profile</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <img src="DSC_3206 copy.jpg" alt="Profile Picture" class="profile-pic">
+
+            <h2>Mohamed Mudathir</h2>
+            <p>Student | Electronics and Communication Engineer</p>
+
+            <ul>
+
+                <li onclick="showSection('profile')">
+                    <i class="fa-solid fa-house"></i> Profile
+                </li>
+
+                <li onclick="showSection('details')">
+                    <i class="fa-solid fa-user"></i> Personal Details
+                </li>
+
+                <li onclick="showSection('location')">
+                    <i class="fa-solid fa-location-dot"></i> Location
+                </li>
+
+                <li onclick="showSection('education')">
+                    <i class="fa-solid fa-graduation-cap"></i> Education
+                </li>
+
+                <li onclick="showSection('experience')">
+                    <i class="fa-solid fa-briefcase"></i> Experience
+                </li>
+
+                <li onclick="showSection('skills')">
+                    <i class="fa-solid fa-code"></i> Skills
+                </li>
+
+                <li onclick="showSection('hobbies')">
+                    <i class="fa-solid fa-heart"></i> Hobbies
+                </li>
+
+                <li onclick="showSection('contact')">
+                    <i class="fa-solid fa-envelope"></i> Contact
+                </li>
+
+            </ul>
+
+            <!-- Dynamic Content Area -->
+            <div id="content">
+                <h1>Welcome</h1>
+                <p>Select an option from the sidebar.</p>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+
+            <div class="hero">
+
+                <div class="intro">
+
+                    <h1>Hi, I'm Mohamed</h1>
+
+                    <p>
+                        A passionate individual who loves football,
+                        challenges, and continuous growth.
+                    </p>
+
+                    <div class="tags">
+                        <span>🎓 International Student</span>
+                        <span>📍 Coimbatore, India</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Information Cards -->
+            <div class="cards">
+
+                <div class="card">
+                    <h3>About Me</h3>
+                    <p>
+                        I enjoy teamwork, problem-solving,
+                        and learning new things.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Favourite Club</h3>
+                    <p>FC Barcelona</p>
+                </div>
+
+                <div class="card">
+                    <h3>Favourite Movie</h3>
+                    <p>DHOOM 3</p>
+                </div>
+
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <p>
+                        ⚽ Football<br>
+                        🎬 Movies<br>
+                        🎮 Gaming<br>
+                        📺 Anime<br>
+                        ♟️ Chess
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Motto</h3>
+                    <p>
+                        Push yourself because no one else is going
+                        to do it for you.
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
