@@ -1,29 +1,29 @@
-# Personal Profile Website Roadmap
+# Personal Profile Project Roadmap
 
-## Phase 1: Prepare the site
+## 1. Complete the profile
 
-- [x] Use a relative path for the profile photo so it works outside the local computer.
-- [x] Remove the link to the missing optional stylesheet.
-- [ ] Check the profile text for consistency and correct spelling.
-- [ ] Review the photo, email address, and phone number before making them public.
+- [ ] Make profile details consistent across the introduction, sidebar, and profile section.
+- [ ] Review spelling, grammar, and personal details.
+- [ ] Add a short, welcoming introduction that reflects personal interests and goals.
+- [ ] Expand the education, experience, and skills sections with relevant details.
+- [ ] Keep hobbies and interests up to date, including chess.
 
-## Phase 2: Publish with GitHub Pages
+## 2. Improve the content and navigation
 
-- [ ] Confirm the GitHub repository contains `index.html`, `style.css`, `script.js`, and the profile photo.
-- [ ] In the repository, open **Settings → Pages**.
-- [ ] Choose **Deploy from a branch**, select the `main` branch and `/ (root)`, then save.
-- [ ] Wait for the Pages deployment and open the published URL.
-- [ ] Test the site on a phone and desktop, including the sidebar sections and image.
+- [ ] Make each sidebar item open a clear, complete section.
+- [ ] Add useful links, such as selected projects, professional profiles, or contact options.
+- [ ] Ensure the contact information is current and only includes details intended to be shared.
+- [ ] Use descriptive text for the profile photo.
 
-## Phase 3: Improve the profile
+## 3. Polish the design
 
-- [ ] Add meaningful alternative text for the profile photo and check keyboard navigation.
-- [ ] Check that the page title and profile content are accurate and consistent.
-- [ ] Refine the layout and spacing for small screens.
-- [ ] Add links to selected projects, professional profiles, or other relevant work.
+- [ ] Make the layout easy to read on phones, tablets, and desktop screens.
+- [ ] Check that colors, spacing, typography, and hover effects feel consistent.
+- [ ] Ensure text and controls have sufficient contrast and are easy to navigate with a keyboard.
+- [ ] Keep animations subtle and respect reduced-motion preferences.
 
-## Phase 4: Keep it maintained
+## 4. Test and maintain
 
-- [ ] Preview changes locally before publishing updates.
-- [ ] Recheck the public site after each update.
-- [ ] Review personal information and external links periodically.
+- [ ] Test every navigation item and check that images and styles load correctly.
+- [ ] Review the page at different screen sizes and in a browser.
+- [ ] Update profile details, interests, and links as they change.
